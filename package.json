@@ -1,0 +1,40 @@
+{
+  "name": "cryo-noir",
+  "icon": "",
+  "displayName": "CryoNoir-theme",
+  "description": "CryoNoir-theme",
+  "version": "1.0.0",
+  "type": "module",
+  "keywords": [
+    "zed",
+    "theme",
+    "red",
+    "dark",
+    "svart"
+  ],
+  "files": [
+    "src/watcher.mjs"
+  ],
+  "scripts": {
+    "dev": "node --watch src/watcher.mjs",
+    "format": "prettier --write src/"
+  },
+  "author": "Ehlix",
+  "publisher": "Ehlix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ehlix/svart-galla-theme/issues"
+  },
+  "homepage": "https://github.com/ehlix/svart-galla-theme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehlix/svart-galla-theme.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "sharp": "^0.28.0"
+  }
+}
