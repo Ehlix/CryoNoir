@@ -7,11 +7,11 @@ export const base = {
   },
   colors: {
     fg: '#f1faee',
-    text: '#f1faee',
     bg: '#1c2026',
     mute: '#5c667a',
     accent: '#88c0d0',
     func: '#6d88a2',
+    text: '#f1faee',
     info: '#81A1C1',
     type: '#a8dadc',
     warn: '#ebcb8b',
